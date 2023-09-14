@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h3><a href="../inicio.html"><b>Inicio</b></a></h3>
+    <form name="DatosBasicos" action="../inicio.html" method="">
+        <h1><img src="../assets/img/datos.svg" height="50">Datos básicos</h1>
+        
+        <label for="perfil">Describa su perfil:</label>
+            <br>
+            <textarea rows="3" cols="50" name="perfil"></textarea>
+        
+        <br><br>
+
+        <label for="tipoId">Tipo de identificación:</label>
+            <select name="tipoId" id="tipoId">
+                <option value="0" selected="">Seleccione un tipo de documento</option>
+                <option value="NUIP">Número Único de Identificación (NUIP)</option>
+                <option value="TI">Tarjeta de Identidad (TI)</option>
+                <option value="CC">Cédula de Ciudadanía</option>
+                <option value="CE">Cédula de Extranjería</option>
+            </select>
+        
+        <br><br>
+
+        <label for="numeroId">Número de identificación:</label>
+            <input id="numeroId" type="text" name="numeroId">
+        <br><br>
+
+        <label for="apellidos">Apellidos:</label>
+            <input id="apellidos" type="text" name="apellidos">
+
+        <br><br>
+
+        <label for="nombres">Nombres:</label>
+            <input id="nombres" type="text" name="nombres">
+
+        <br><br>
+
+        <label for="genero">Género:</label>
+            <input id="generoF" type="radio" name="genero">Masculino
+            <input id="generoM" type="radio" name="genero">Femenino
+
+        <br><br>
+
+        <label for="estadoCivil">Estado Civil:</label>
+            <input id="estadoCivil" type="radio" name="estadoCivil">Soltero/a
+            <input id="estadoCivil" type="radio" name="estadoCivil">Casado/a
+            <input id="estadoCivil" type="radio" name="estadoCivil">Unión libre
+            <input id="estadoCivil" type="radio" name="estadoCivil">Viudo/a
+
+        <br><br>
+
+        <label for="numeroContacto">Número telefónico de contacto:</label>
+            <input id="numeroContacto" type="text">
+        <br><br>
+
+        <label for="direccion">Dirección de tu residencia:</label>
+            <input id="direccion" type="text">
+        <br><br>
+
+        <label for="correoElectronico">Correo electrónico de contacto:</label>
+            <input id="correoElectronico" type="email">
+
+        <br><br>
+
+        <label for="ciudad">¿En qué ciudad vives?</label>
+        <select name="ciudad">
+            <option selected="" value="0"> Elige una ciudad</option>
+            <optgroup label="Cundinamarca">
+                <option value="1">Bogotá</option>
+                <option value="2">Chia</option>
+            </optgroup>
+            <optgroup label="Antioquia">
+                <option value="4">Medellin</option>
+                <option value="5">Envigado</option>
+            </optgroup>
+            <optgroup label="Santander">
+                <option value="4">Bucaramanga</option>
+                <option value="5">San Gil</option>
+            </optgroup>
+        </select>
+        <br>
+        <br>
+        <label for="pass">Contraseña</label>
+        <input id="pass" type="password" name="pass">
+        <br>
+        <br>
+        <label>¿Qué te gusta hacer en tu tiempo libre?</label>
+        <input type="checkbox" id="series" name="series">
+        <label for="series">Ver Series</label>
+        <input type="checkbox" id="jugar" name="jugar">
+        <label for="jugar">Jugar Videojuegos</label>
+        <input type="checkbox" id="deportes" name="deportes">
+        <label for="deportes">Hacer Deporte</label>
+        <br>
+        <br>
+        <label for="archivo"> Sube aquí tu archivo</label>
+        <input type="file" name="archivo">
+    </form>
+</body>
+</html>
