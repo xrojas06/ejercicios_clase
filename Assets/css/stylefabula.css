@@ -1,0 +1,42 @@
+body {
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+}
+
+.container {
+    align-items: center;
+}
+
+.header {
+    text-align: center;
+}
+
+.title {
+    color: rgb(21,160,133, 0.7);
+    font-size: 35px;
+}
+
+.subtitle {
+    font-weight: bold;
+}
+
+.content {
+    text-align: left;
+}
+
+.image-container {
+    font-size: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.footer {
+    text-align: right;
+}
+
+.moraleja {
+    color: rgb(21,160,133, 0.7);
+    font-size: 30px;
+    font-weight: 700;
+}
+
