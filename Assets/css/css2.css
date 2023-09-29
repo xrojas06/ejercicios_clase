@@ -1,0 +1,28 @@
+.blue{
+    color: #007BFF;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.yellow{
+    color: gold;
+    font-family: "Comic Sans MS", serif;
+    font-style: italic;
+    font-size: 22px;
+}
+
+.green{
+    color: chartreuse;
+    font-size: 45px;
+    font-family: "Times New Roman", serif;
+    text-decoration: underline;
+}
+
+h2{
+    color: darkmagenta;
+    font-family: Consolas, serif;
+    font-size: 32px;
+}
+
+#titulo2{
+    text-align: right;
+}

@@ -1,0 +1,35 @@
+body {
+    font-family: Mulish ,sans-serif;
+    background-color: white;
+    color: white;
+}
+
+.biografia {
+    background-color: rgb(21,160,133, 1);
+    border: 6px dotted yellow;
+}
+
+h1{
+    font-size: 50px;
+    margin-left: 20px;
+    margin-top: 70px;
+}
+
+p{
+    font-size: 30px;
+}
+
+img {
+    width: 210px;
+    float: left;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.homero {
+    color: #FCFC34;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+
