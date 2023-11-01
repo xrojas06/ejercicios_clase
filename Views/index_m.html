@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manatíes - Página Principal</title>
+    <link rel="stylesheet" href="../Assets/css/styles_manati.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+<!-- Barra de navegación -->
+<nav class="navbar navbar-expand-lg navbar-dark custom-navbar-bg">
+
+    <a class="navbar-brand" href="#">
+        <img src="../Assets/img/manati.png" alt="Logo" width="40" height="40" class="d-inline-block align-top">
+</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="index_m.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="manaties.html">Información</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Carrusel -->
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="../Assets/img/image1.jpg" class="d-block w-100" alt="Imagen 1">
+        </div>
+        <div class="carousel-item">
+            <img src="../Assets/img/image2.jpg" class="d-block w-100" alt="Imagen 2">
+        </div>
+        <div class="carousel-item">
+            <img src="../Assets/img/image3.jpg" class="d-block w-100" alt="Imagen 3">
+        </div>
+    </div>
+</div>
+
+<!-- Iconos con Bootstrap -->
+<div class="container mt-4">
+    <h2>Descubre los manatíes</h2>
+</div>
+
+<!-- Botones, Desplegable y Pestañas -->
+<div class="container mt-4">
+    <h3>Interactúa con los manatíes</h3>
+    <button class="btn btn-primary">Adopta un manatí</button>
+    <button class="btn btn-secondary">Visita un santuario</button>
+    <div class="dropdown mt-3">
+        <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown">
+            Más opciones
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Manatíes en peligro</a>
+            <a class="dropdown-item" href="#">Voluntariado</a>
+        </div>
+    </div>
+    <ul class="nav nav-tabs mt-3">
+        <li class="nav-item">
+            <a class="nav-link active" data-toggle="tab" href="#tab1">Manatíes en la naturaleza</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#tab2">Conservación</a>
+        </li>
+    </ul>
+    <div class="tab-content mt-3">
+        <div id="tab1" class="container tab-pane active">
+            <p>Aprende sobre la vida de los manatíes en su entorno natural.</p>
+        </div>
+        <div id="tab2" class="container tab-pane fade">
+            <p>Descubre los esfuerzos de conservación para proteger a los manatíes.</p>
+        </div>
+    </div>
+</div>
+
+<!-- Formulario -->
+<div class="container mt-4">
+    <h3>Contáctanos</h3>
+    <form>
+        <div class="form-group">
+            <label for="nombre">Nombre:</label>
+            <input type="text" class="form-control" id="nombre" placeholder="Tu nombre">
+        </div>
+        <div class="form-group">
+            <label for="email">Correo electrónico:</label>
+            <input type="email" class="form-control" id="email" placeholder="Tu correo electrónico">
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+</div>
+
+<!-- Tabla Responsive -->
+<div class="container mt-4">
+    <h3>Manatíes en peligro</h3>
+    <table class="table table-bordered table-striped">
+        <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Estado</th>
+            <th>Razón</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Manatí caribeño</td>
+            <td>En peligro crítico</td>
+            <td>Pérdida de hábitat</td>
+        </tr>
+        <tr>
+            <td>Manatí amazónico</td>
+            <td>En peligro</td>
+            <td>Caza ilegal</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<!-- Agrega los scripts de Bootstrap y jQuery (CDN) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
