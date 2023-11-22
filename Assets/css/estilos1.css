@@ -1,0 +1,64 @@
+*{
+	margin: 0;
+	padding: 0;
+	border:0;
+}
+body{
+	background-image: url("../img/797.jpg");
+	background-size: cover;
+}
+
+h1{
+  color: #FFFFFF;
+  text-shadow: 2px 2px 2px #000000;
+  text-align: center;
+  padding: 20px;
+}
+.card{
+  text-align: center;
+  margin: 50px auto;
+  background-color: transparent;
+  padding: 0;
+
+}
+
+.card img{
+	max-height: 200px;
+	margin: 10px auto;
+}
+.card-header{
+	background-color: #283071;
+	margin: 0;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+.card-body{
+background-color: transparent;
+}
+
+.ejercicios{
+background-color: #FFFFFF;
+}
+
+.ejercicios img{
+  margin: 30px auto;
+}
+
+.modal-dialog{
+	box-shadow: 4px 4px 4px #00FF00;
+
+}
+.modal-header{
+	background-color: #283071;
+	color: #FFFFFF;
+}
+
+.modal-footer{
+	background-color: #283071;
+	color: #FFFFFF;
+}
+
+.modal-body{
+	background-color: rgba(254, 212, 251,0.5);
+}

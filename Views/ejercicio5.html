@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 5</title>
+    <link rel="stylesheet" href="../Assets/css/ejercicio5.css">
+</head>
+<body>
+<div class="cards-container">
+<div class="card" id="circleCard">
+    <h2 class="card-title">Círculo</h2>
+    <div class="bar">
+        <div class="emptybar"></div>
+        <div class="filledbar"></div>
+    </div>
+    <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQpd4nqCRC_PdOycFSItqX_ByWjocxz9wfypWG0pO43gpsDAqhJ" alt="">
+    <button onclick="openModal('circle')">Perímetro</button>
+    <button onclick="openModal('circle', true)">Área</button>
+</div>
+
+
+<div class="card" id="triangleCard">
+    <h2 class="card-title">Triángulo</h2>
+    <div class="bar">
+        <div class="emptybar"></div>
+        <div class="filledbar"></div>
+    </div>
+    <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQdH2steSg0fn6b-S6GUHuogOLFOQybe4qvfFMByp0REzMp36OD" alt="">
+    <button onclick="openModal('triangle')">Perímetro</button>
+    <button onclick="openModal('triangle', true)">Área</button>
+</div>
+
+<div class="card" id="rectangleCard">
+    <h2 class="card-title">Rectángulo</h2>
+    <div class="bar">
+        <div class="emptybar"></div>
+        <div class="filledbar"></div>
+    </div>
+    <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSRoeorodW4sTF6suCi3Ci9en3QI9IFklxLBG2mJXVfOIZnyZbe" alt="">
+    <button onclick="openModal('rectangle')">Perímetro</button>
+    <button onclick="openModal('rectangle', true)">Área</button>
+</div>
+
+<div class="card" id="squareCard">
+    <h2 class="card-title">Cuadrado</h2>
+    <div class="bar">
+        <div class="emptybar"></div>
+        <div class="filledbar"></div>
+    </div>
+    <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSCQ7sgs5DCn6B8wzt5OlH90pz32SKDeZGGm0Vmgx4Hzahl1T46">
+    <button onclick="openModal('square')">Perímetro</button>
+    <button onclick="openModal('square', true)">Área</button>
+</div>
+
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <h2 id="modalTitle"></h2>
+        <form id="modalForm">
+        </form>
+    </div>
+</div>
+</div>
+<script src="../Assets/js/ejercicio5.js"></script>
+</body>
+</html>
